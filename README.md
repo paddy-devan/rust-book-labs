@@ -18,7 +18,7 @@ This repo is a **Cargo workspace** containing multiple crates:
 │   └── src/
 │       ├── main.rs
 │       └── bin/
-│           ├── fibonacci.rs
+│           ├── guessing_game.rs
 │           └── ...
 └── <future-projecy>
     ├── Cargo.toml
@@ -37,4 +37,4 @@ This repo is a **Cargo workspace** containing multiple crates:
     * `cargo run -p sandpit`
 
 * Run a specific binary inside sandpit/src/bin
-    * `cargo run -p sandpit --bin fibonacci`
+    * `cargo run -p sandpit --bin guessing_game`
